@@ -1,0 +1,28 @@
+.rect {
+  position: relative;
+  background: linear-gradient(359.26deg, rgba(252, 96, 17, 0.47) -7.18%, rgba(255, 255, 255, 0) 143.19%);
+}
+
+/* .navbar-brand {
+  /* margin: 63px 125px 50px 50px; */
+} */
+
+li {
+  margin-left: 60px;
+  margin-right: 20px;
+}
+
+.intro-content {
+  margin-top: 50px
+}
+
+.text-content {
+  margin-top: 10vh;
+}
+
+.img-fluid {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 90px;
+}
