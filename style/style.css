@@ -147,3 +147,25 @@ li {
     border-radius: 13.0931px;
   }
 }
+
+.card {
+  height: 100%;  
+}
+.full-card {
+  margin-top: 20px;  
+}
+
+.card-small-heading {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 9px;
+  line-height: 133.19%;
+}
+.card-text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 133.19%;
+}
