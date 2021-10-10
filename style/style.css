@@ -3,7 +3,12 @@
   background: linear-gradient(359.26deg, rgba(252, 96, 17, 0.47) -7.18%, rgba(255, 255, 255, 0) 143.19%);
 }
 
-li {
+.navbar-nav li a{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
   margin-left: 60px;
   margin-right: 20px;
 }
@@ -130,7 +135,7 @@ li {
   border-radius: 13.0931px;
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 750px) {
   .explore {
     font-family: Sora;
     font-style: normal;
@@ -204,10 +209,18 @@ li {
 .footer-copyright{
   background-color: black; 
   color: #FFFFFF;
-  height: 3.5rem;
+  height: 4rem;
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 165.19%;
+}
+
+.footer-image{
+  position: relative;
+  width: 15rem;
+  height: 8rem;
+  left: 0px;
+  bottom: 1px;
 }
