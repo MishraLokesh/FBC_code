@@ -62,4 +62,88 @@ li {
   font-size: 25.1387px;
   line-height: 32px;
   border-radius: 2rem;
+  margin: 25px;
+  padding: 5px;
+  
+  height: auto;
+  width: 20%;
+  color: white;
+  background: #FC8019;
+  border-radius: 13.0931px;
+}
+
+@media only screen and (max-width: 550px) {
+  .chooseUs {
+    font-family: Sora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25.1387px;
+    line-height: 32px;
+    border-radius: 2rem;
+    margin: 14px;
+    padding: 5px;
+    
+    height: 10%;
+    width: 100%;
+    color: white;
+    background: #FC8019;
+    border-radius: 13.0931px;
+  }
+}
+
+.content img{
+  height: 100%;
+  width: 100%;
+  height: 234.05px;
+  top: 850px;
+}
+
+.content2 {
+  width: 100%;
+  height: 100%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #3C3553;
+}
+
+.cont {
+  font-family: Roboto;
+  margin-top: 40px;
+}
+
+.explore {
+  font-family: Sora;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25.1387px;
+  line-height: 32px;
+  border-radius: 2rem;
+  margin: 25px 0px 25px 0px;
+  
+  height: auto;
+  width: 25%;
+  color: white;
+  background: #FC8019;
+  border-radius: 13.0931px;
+}
+
+@media only screen and (max-width: 550px) {
+  .explore {
+    font-family: Sora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25.1387px;
+    line-height: 32px;
+    border-radius: 2rem;
+    margin: 25px 0px 25px 0px;
+    
+    height: 10%;
+    width: 100%;
+    color: white;
+    background: #FC8019;
+    border-radius: 13.0931px;
+  }
 }
