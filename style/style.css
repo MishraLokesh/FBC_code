@@ -155,7 +155,6 @@ li {
 .full-card {
   margin-top: 20px;  
 }
-
 .card-small-heading {
   font-family: Poppins;
   font-style: normal;
@@ -176,14 +175,18 @@ li {
   font-weight: 500;
   font-size: 24px;
   line-height: 133.19%;
+  margin-bottom: 35px;
   
   color: #000000;
 }
-
+.founders{
+  margin: auto;
+}
 .people-card{
   width: 17rem;
   height: 20rem;
 }
+
 .bottom-content {
   margin-top: 20px;
   font-family: Poppins;
@@ -193,4 +196,7 @@ li {
   line-height: 197.19%;
   
   color: #3C3553;
+}
+.founder-full-card{
+  margin: auto;
 }
