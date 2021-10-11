@@ -2,7 +2,9 @@
   position: relative;
   background: linear-gradient(359.26deg, rgba(252, 96, 17, 0.47) -7.18%, rgba(255, 255, 255, 0) 143.19%);
 }
-
+body {
+  overflow: scroll;
+}
 .navbar-nav li a{
   font-family: Poppins;
   font-style: normal;
@@ -184,9 +186,7 @@
   
   color: #000000;
 }
-.founders{
-  margin: auto;
-}
+
 .people-card{
   width: 17rem;
   height: 20rem;
