@@ -1,5 +1,6 @@
 body{
   font-family: 'Poppins' ;
+  overflow-x: hidden ;
 }
 
 .firstImg{
@@ -8,11 +9,11 @@ body{
 
 }
 .nav_container {
-    position: relative;
+    
     background: linear-gradient(359.26deg, rgba(252, 96, 17, 0.47) -7.18%, rgba(255, 255, 255, 0) 143.19%);
   }
   .navbar{
-    margin: 0%;
+    
     background: linear-gradient(359.26deg, rgba(235, 189, 172, 0.47) -7.18%, rgba(248, 199, 180, 0.47) -7.18%);
       font-family: Poppins;
      font-style: normal;
@@ -22,7 +23,7 @@ body{
   margin-left: 60px;
   margin-right: 20px;
   }
-  .navbar-expand-lg a{
+  .navbar-expand-lg {
    
     font-style: normal;
     font-weight: normal;
@@ -30,7 +31,7 @@ body{
     line-height: 30px;
     color: #FF6838;
   }
-  .nav-item a{
+  .nav-item {
     margin-left: 8vw;
     color: black;
   }
