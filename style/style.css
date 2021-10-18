@@ -153,6 +153,10 @@ body {
     background: #FC8019;
     border-radius: 13.0931px;
   }
+  .founder-full-card{
+    margin-top: 20px;
+    margin-left: 15px;
+  }
 }
 
 .card {
@@ -203,7 +207,7 @@ body {
   color: #3C3553;
 }
 .founder-full-card{
-  margin: auto;
+  margin-top: 20px;
 }
 
 .footer-copyright{
@@ -223,4 +227,113 @@ body {
   height: 8rem;
   left: 0px;
   bottom: 1px;
+}
+
+
+
+/* //job openings  */
+.search-bar{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+.filter-dropdown{
+  display: flex;
+}
+.filter-dropdown > h3{
+  margin: 25px 30px 25px 0px;
+}
+.filter-dropdown > button{
+  margin: 25px 0px 25px 0px; 
+  width: 12vw;
+  background: #FFFFFF;
+  color: black;
+  border: 1px solid #C4C4C4;
+  box-sizing: border-box;
+}
+
+
+.open-pos{
+  margin: 25px 0px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 45px;
+
+  color: #000000;
+}
+
+.jobop-navbar{
+  background: linear-gradient(359.26deg, rgba(252, 96, 17, 0.47) -7.18%, rgba(255, 255, 255, 0) 143.19%); 
+  height: 100px;
+  justify-content: center;
+  text-align: center;
+}
+
+.pagination > li > a
+{
+    background-color: white;
+    color: #000000;
+    border: solid 1px #C4C4C4 !Important;
+    padding: 10px 20px;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover
+{
+    color: #5a5a5a;
+    background-color: #eee;
+    border-color: #ddd;
+}
+
+.pagination > .active > a
+{
+    color: black;
+    background-color: #C4C4C4 !Important;
+    border: solid 1px #C4C4C4 !Important;
+}
+
+.pagination > .active > a:hover
+{
+    background-color: #C4C4C4 !Important;
+    border: solid 1px #C4C4C4;
+}
+
+.pagination > li {
+  margin: 5px;
+}
+
+.pagination-button{
+  width: 12vw;
+  height: 7vh;
+  background-color: #FFFFFF;
+  /* border: 1px solid #000000; */
+  box-sizing: border-box;
+}
+.pagination-button > button{
+  background-color: #FFFFFF;
+  color: #000000;
+  /* border: 1px solid #000000; */
+  box-sizing: border-box;
+}
+
+
+.job-footer{
+  background: linear-gradient(180deg, #C4C4C4 0%, rgba(196, 196, 196, 0) 100%);
+  border-radius: 23px;
+  padding: 20px
+}
+
+.foot-button> button{
+  margin-top: auto;
+  background: #F99A4D;
+  border-radius: 9.44796px;
+}
+.foot-button{
+  margin: auto;
+
 }
