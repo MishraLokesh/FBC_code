@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" >
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"> 
+    <!--Font awesome-->
+    <script src="https://kit.fontawesome.com/95105048e2.js" crossorigin="anonymous"></script>
+    <!--Bootstrap 4-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <nav id="Navbar" class="navbar">
+      
+    </nav>
+    <div id="section1">
+        <img id="starbuck_img" src="image 3.jpg" />
+        <img id="Arrow" src="arrow.png" />
+        <div id="first_inner">
+            <p class="bold_text">
+                Starbucks Coffee
+            </p>
+            <p class="small_text">
+                Coffee & Tea, Breakfast | 15-20 mins | 4.1
+                <img src="star.png" width="10px" height="9px" />
+            </p>
+        </div>
+    </div>
+    <div id="sticky_section">
+        <div id="section2">
+            <div id="second_inner">
+                <p class="second_text">A-406, Shakuntala Apt., M.G. Road, Jabalpur.</p>
+                <p class="second_text">Open until 08:00 pm</p>
+            </div>
+            <img id="Heart" onclick="imagefun()" src="heart.png" />
+            <div id="option">
+                <ul class="nav nav-justified">
+                    <li class="nav-item">
+                      <a class="nav-link text-muted active" data-toggle="tab" href="#recommended">Recommended</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-muted" data-toggle="tab" href="#menu1">What's New?</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-muted" data-toggle="tab" href="#menu2">Coffee</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-muted" data-toggle="tab" href="#menu2">Wraps</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-muted" data-toggle="tab" href="#menu2">Value Meals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-muted" data-toggle="tab" href="#menu2">Croissants</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-muted" data-toggle="tab" href="#menu2">Muffins & Scones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-muted" data-toggle="tab" href="#menu2">Pies & Tarts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-muted" data-toggle="tab" href="#menu2">More</a>
+                    </li>
+                  </ul>
+                  
+                  <!-- Tab panes -->
+                  <div class="tab-content">
+                    <div class="tab-pane container active" id="recommended">
+                            <div class="tab_cards">
+                                <div class="card_section">
+                                    <p class="bold_card_text">Fermentum</p>
+                                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <img class="card_star" src="fillstar.png" />
+                                    <p class="card_text_pri">4.5</p>
+                                    <p class="card_text_sec">(2.4)</p>
+                                    <p class="card_rate">₹170</p>
+                                    <div class="card_button">ADD</div>
+                                </div>
+                                <div class="card_block"></div>
+                            </div>
+                            <div class="tab_cards">
+                                <div class="card_section">
+                                    <p class="bold_card_text">Fermentum</p>
+                                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <img class="card_star" src="fillstar.png" />
+                                    <p class="card_text_pri">4.5</p>
+                                    <p class="card_text_sec">(2.4)</p>
+                                    <p class="card_rate">₹170</p>
+                                    <div class="card_button">ADD</div>
+                                </div>
+                                <div class="card_block"></div>
+                            </div>
+                            <div class="tab_cards">
+                                <div class="card_section">
+                                    <p class="bold_card_text">Fermentum</p>
+                                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <img class="card_star" src="fillstar.png" />
+                                    <p class="card_text_pri">4.5</p>
+                                    <p class="card_text_sec">(2.4)</p>
+                                    <p class="card_rate">₹170</p>
+                                    <div class="card_button">ADD</div>
+                                </div>
+                                <div class="card_block"></div>
+                            </div>
+                            <div class="tab_cards">
+                                <div class="card_section">
+                                    <p class="bold_card_text">Fermentum</p>
+                                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <img class="card_star" src="fillstar.png" />
+                                    <p class="card_text_pri">4.5</p>
+                                    <p class="card_text_sec">(2.4)</p>
+                                    <p class="card_rate">₹170</p>
+                                    <div class="card_button">ADD</div>
+                                </div>
+                                <div class="card_block"></div>
+                            </div>
+                    </div>
+                    <div class="tab-pane container fade" id="menu1">...</div>
+                    <div class="tab-pane container fade" id="menu2">...</div>
+                  </div>
+            </div>
+            <div id="side_box"></div>
+        </div> 
+    </div>
+    <script>
+        function imagefun(){
+            var Image_Id = document.getElementById('Heart');
+            console.log(Image_Id);
+            Image_Id.classList.add("fas fa-heart");
+            
+        }
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

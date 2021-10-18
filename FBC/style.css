@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#Navbar{
+    background-color: white;
+    height:86px ;
+}
+#section1{
+    position: relative;
+}
+#starbuck_img{
+    height: 307px;
+     width: 100%;
+}
+#Arrow{
+    width: 10px;
+    height: 17.48px;
+    position: absolute;
+    left: 53px;
+    top: 30.25px;
+}
+#first_inner{
+    position: absolute;
+    top: 215px;
+    left: 43px;
+    color: white;
+}
+.bold_text{
+    font-family: 'Poppins', sans-serif;
+    font-style:normal;
+    font-size: 24px;
+    line-height: 32px;
+    line-height: 89%;
+    text-align: Left;
+    vertical-align: Center;
+}
+.small_text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+}
+#sticky_section{
+    position: sticky;
+    top: 100px;
+}
+#section2{
+    position: relative;
+}
+#second_inner{
+    position: absolute;
+    top: 24px;
+    left: 43px;
+}
+.second_text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    line-height: 100%;
+    text-align: left;
+    vertical-align: center;
+}
+#Heart{
+    position: absolute;
+    top: 32px;
+    right: 72.55px;
+    width: 20.9px;
+    height: 18.25;
+}
+#option{
+    position: absolute;
+    top: 105px;
+    width: 100%;
+}
+#option ul li a{
+    border-bottom: 1.5px solid grey;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    vertical-align: center;
+    text-align: center;
+}
+#option ul li .active{
+    color: #FF6838 !important;
+    border-bottom: 2px solid #FF6838;
+}
+#option .active a::after{
+    color: tomato;
+}
+#recommended{
+    position: absolute;
+    left: 43px;
+    width: 990px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.tab_cards{
+    margin: 10px;
+    width: 456px;
+    height: 169px;
+    border-radius: 8px;
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #E2E2E2;
+    margin-top: 30px;
+}
+#side_box{
+    width: 320px;
+    height: 333px;
+    position: absolute;
+    right: 62px;
+    top: 178px;
+    background-color: teal;
+}
+.card_section{
+    width: 286px;
+    position: relative;
+}
+.bold_card_text{
+    font-size: 16px;
+    line-height: 58%;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 26px;
+    left: 22px;
+    font-weight: 600;
+    vertical-align: center;
+    text-align: left;
+}
+.card_text{
+    position: absolute;
+    color: #8D8D8D;
+    top: 53px;
+    left: 23px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    vertical-align: center;
+    text-align: left;
+}
+.card_block{
+    width: 170px;
+    height: 170px;
+    background-color: #C4C4C4;
+    position: absolute;
+    right: 0px;
+}
+.card_star{
+    width: 12px;
+    height: 11.4px;
+    position: absolute;
+    top: 98px;
+    left: 22px;
+    color: #FF6838;
+}
+.card_text_pri{
+    position: absolute;
+    color: #FF6838;
+    top: 94px;
+    left: 39px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    vertical-align: center;
+    text-align: right;
+    font-weight: 500;
+}
+.card_text_sec{
+    position: absolute;
+    color: #8D8D8D;
+    top: 96px;
+    left: 70px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    vertical-align: center;
+    text-align: left;
+    font-weight: 300;
+}
+.card_rate{
+    position: absolute;
+    color: #8D8D8D;
+    top: 131px;
+    left: 22px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    vertical-align: center;
+    text-align: left;
+    font-weight: 400;
+}
+.card_button{
+    position: absolute;
+    top: 126px;
+    left: 178px;
+    width: 89px;
+    height: 26px;
+    background-color: #FF6838;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 15.5px;
+    padding: auto 0;
+    text-align: center;
+}
